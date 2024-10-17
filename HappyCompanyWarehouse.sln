@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyCompanyWarehouse.API", "HappyCompanyWarehouse.API\HappyCompanyWarehouse.API.csproj", "{C4C936A6-E5BA-4012-A984-554E8CFC2878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyCompanyWarehouse.Domain", "HappyCompanyWarehouse.Domain\HappyCompanyWarehouse.Domain.csproj", "{F8B4D9E7-D3D0-4260-AD14-F5FEAC2FA3E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C936A6-E5BA-4012-A984-554E8CFC2878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C936A6-E5BA-4012-A984-554E8CFC2878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C936A6-E5BA-4012-A984-554E8CFC2878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C936A6-E5BA-4012-A984-554E8CFC2878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B4D9E7-D3D0-4260-AD14-F5FEAC2FA3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B4D9E7-D3D0-4260-AD14-F5FEAC2FA3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B4D9E7-D3D0-4260-AD14-F5FEAC2FA3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B4D9E7-D3D0-4260-AD14-F5FEAC2FA3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {554F6551-17BD-4D01-B2E4-3B111B9C711B}
+	EndGlobalSection
+EndGlobal
