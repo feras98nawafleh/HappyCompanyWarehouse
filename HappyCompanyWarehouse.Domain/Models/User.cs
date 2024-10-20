@@ -29,7 +29,7 @@ namespace HappyCompanyWarehouse.Domain.Models
                 Username = Constants.USERNAME_DEFAULT,
                 Email = Constants.EMAIL_DEFAULT,
                 HashedPassword = MethodHelper.ComputeSHA512Hash(Constants.PASSWORD_DEFAULT),
-                Role = Constants.ROLE_ADMIN
+                Role = (Role)Role.CreateAdmin(),
             };
         }
     }

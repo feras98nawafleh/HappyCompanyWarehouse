@@ -14,9 +14,9 @@ namespace HappyCompanyWarehouse.Domain.Models
         public const string USERNAME_DEFAULT = "admin@happywarehouse";
         public const string EMAIL_DEFAULT = "admin@happywarehouse.com";
         public const string PASSWORD_DEFAULT = "P@ssw0rd";
-        public static readonly Role ROLE_ADMIN = Role.CreateAdmin();
-        public static readonly Role ROLE_MANAGEMENT = Role.CreateManagement();
-        public static readonly Role ROLE_AUDITOR = Role.CreateAuditor();
+        public static readonly int ROLE_ADMIN = 1;
+        public static readonly int ROLE_MANAGEMENT = 2;
+        public static readonly int ROLE_AUDITOR = 3;
         public const string TOKEN_KEY = "FERAS_ADEL_@!_KEY_!@_FERAS_ADEL";
         public const int TOKEN_EXPIRATION_IN_MINUTES = 15;
     }

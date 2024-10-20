@@ -7,24 +7,24 @@ namespace HappyCompanyWarehouse.Domain.Models
         [Key]public int Id { get; set; }
         public string Name { get; set; }
 
-        public static Role CreateAdmin()
+        public static object CreateAdmin()
         {
             return new Role
             {
-                Id = 1,
+                Id = Constants.ROLE_ADMIN,
                 Name = Constants.ADMIN,
             };
         }
-        public static Role CreateManagement()
+        public static object CreateManagement()
         {
             return new Role
             {
-                Id = 2,
+                Id = Constants.ROLE_MANAGEMENT,
                 Name = Constants.MANAGEMENT,
             };
         }
 
-        public static Role CreateAuditor()
+        public static object CreateAuditor()
         {
             return new Role
             {

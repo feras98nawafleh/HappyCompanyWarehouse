@@ -1,6 +1,6 @@
 ﻿using HappyCompanyWarehouse.Domain;
 using HappyCompanyWarehouse.Domain.Interfaces;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace HappyCompanyWarehouse.DAL.Repositories
 {
