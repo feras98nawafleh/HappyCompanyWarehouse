@@ -17,7 +17,7 @@ namespace HappyCompanyWarehouse.Domain.Models
         public static readonly int ROLE_ADMIN = 1;
         public static readonly int ROLE_MANAGEMENT = 2;
         public static readonly int ROLE_AUDITOR = 3;
-        public const string TOKEN_KEY = "FERAS_ADEL_@!_KEY_!@_FERAS_ADEL";
+        public const string TOKEN_KEY = "FERASS_ADEL_@!_KEY_!@_FFERAS_ADEL";
         public const int TOKEN_EXPIRATION_IN_MINUTES = 15;
     }
 }

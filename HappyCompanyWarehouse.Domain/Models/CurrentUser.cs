@@ -11,6 +11,10 @@ namespace HappyCompanyWarehouse.Domain.Models
     public class CurrentUser
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
+        public CurrentUser(IHttpContextAccessor httpContextAccessor)
+        {
+            _httpContextAccessor = httpContextAccessor;
+        }
         public string Id => _httpContextAccessor.HttpContext?.User.FindFirst(ClaimTypes.NameIdentifier).Value ?? null;
     }
 }
